@@ -3,11 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Musikakita</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="/music_app_practice/media/icon.png"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Mouse+Memoirs&display=swap" rel="stylesheet"> 
     <script type="module" src="./main.js"></script>
+
 </head>
 <body>
+      <header class="header-landing"> 
+        <nav class="nav-bar"> 
+            <div class="wrap-logo"> 
+             <img src="/music_app_practice/media/icon.png" alt="" class="logo-header"> 
+            </div>   
+            <ul class="encabezado-lista"> 
+                <div id="user-settings">
+                    <li class="encabezado-item"><img src="/music_app_practice/media/settings.png" href="index.html" 
+                    class="encabezado-enlace"></li> 
+
+                    <li class="encabezado-item"><img src="/music_app_practice/media/profile.png" href="" 
+                    class="encabezado-enlace"></li> 
+
+                    <li class="encabezado-item"><img src="/music_app_practice/media/home.png" href="" 
+                    class="encabezado-enlace"></li> 
+                </div>
+                <div id="search">
+                    <input type="text" name="" id="search-bar">
+                    <button><img src="/music_app_practice/media/search.png" alt=""></button>
+                </div>
+                <div id="user-options">
+                    <li class="encabezado-item"><img src="/music_app_practice/media/saved.png" href="" 
+                    class="encabezado-enlace"></li> 
+
+                    <li class="encabezado-item"><img src="/music_app_practice/media/add.png" href="index.html" 
+                    class="encabezado-enlace"></li>
+                </div>
+                 
+            </ul> 
+        </nav> 
+    </header> 
     <div class="container">
         <div class="music-player">
             <nav>
@@ -20,7 +56,7 @@
             </nav>
 
             <div id="song-details">
-                <img src="./media/default_img.jpg" alt="" id="song-img">
+                <img src="/music_app_practice/media/song.jpg" alt="" id="song-img">
                 <h1 id="title"></h1>
                 <h3 id="artist"></h3>
             </div>

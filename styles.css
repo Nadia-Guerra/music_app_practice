@@ -4,8 +4,38 @@
     box-sizing: border-box;
 }
 
+
+.nav-bar { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: var(--main-c); 
+    padding: 22px 5%; 
+} 
+.user-settings{
+    display: flex;
+}
+.wrap-logo { 
+display: flex; 
+align-items: center; 
+} 
+li{
+    display: flex;
+}
+.logo-header { 
+max-width: 90px; 
+} 
+.encabezado-lista { 
+display: flex; 
+gap: 30px; 
+} 
+.encabezado-enlace { 
+color: #f2f7d6; 
+font-weight: bold; 
+font-size: 1.1rem; 
+} 
 .music-player {
-    background: yellow;
+    background: yellow;     
 }
 
 @media (orientation: landscape) and (width >= 800px) and (width <= 1920px){}
