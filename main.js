@@ -59,10 +59,6 @@ media.addEventListener('loadedmetadata', () => {
     }
 });
 
-media.ontimeupdate = function updateProgressBar() {
-    const progress_value = (this.currentTime / this.duration) * 100;
-    progress_bar.value = progress_value;
-}
 
 lastest.addEventListener('click', function(){
     if(!last.length == 0){
@@ -79,9 +75,7 @@ forward.addEventListener('click', function(){
     }
 });
 
-progress_bar.oninput = function() {
-    media.currentTime = (this.value/100) * media.duration;
-}
+
 
 play_btn.addEventListener("click", playPause);
 
